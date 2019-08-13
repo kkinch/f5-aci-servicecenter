@@ -72,8 +72,8 @@ jobs:
         provider: s3
         access_key_id: $AWS_ACCESS_KEY_ID
         secret_access_key: $AWS_SECRET_ACCESS_KEY
-        bucket: $AWS_S3_PROD_BUCKET
+        bucket: clouddocs.f5.com
         local_dir: docs/_build/html
         upload_dir: f5-aci-servicecenter/latest
         on:
-          branch: master@F5Networks/f5-aci-servicecenter
+          branch: master
